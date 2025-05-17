@@ -1,0 +1,8 @@
+# Sensitive files
+.env
+credentials.json
+
+
+# Node.js typical ignores
+node_modules/
+package-lock.json
