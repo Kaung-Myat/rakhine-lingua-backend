@@ -1,13 +1,12 @@
 const express = require('express');
-const { google } = require('googleapis');
 const app = express();
 require('dotenv').config();
 const PORT = process.env.PORT || 4000;
 
-const translationRoutes = require('./routes/translation.route');
+const toneOfVoiceRoutes = require('./routes/tone_of_voice.route');
 
-app.use('/api', translationRoutes);
+app.use('/api', toneOfVoiceRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 });
