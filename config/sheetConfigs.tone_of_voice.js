@@ -1,6 +1,6 @@
 const sheetConfigs = {
-    karams: {
-        title: "karams",
+    OoArrKarams: {
+        title: "အုအာ ကာရံ",
         spreadsheetId: "1Ul5AzGzRjgFKLRTOfo2fxBsjWsyrfCiPGiN33ROHViQ",
         range: "A:C",
     }
